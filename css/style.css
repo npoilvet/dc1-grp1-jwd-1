@@ -204,14 +204,14 @@ section#photos {
 }
 
 #photos #photos_content {
-    background-color: red; 
+    /*background-color: red;*/
 }
 
 
 /* Contact */
 
 section#contact {
-    background-color: bisque;
+    /*background-color: #eee;*/
 }
 
 /* Photo */
@@ -234,5 +234,5 @@ section.commentaires time {
 /* Footer */
 
 footer {
-    background-color: chartreuse;
+    /*background-color: chartreuse;*/
 }

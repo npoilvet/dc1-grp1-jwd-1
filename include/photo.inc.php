@@ -4,7 +4,11 @@
         <p class="likes"><?php echo $photo["nb_likes"]; ?> likes</p>
     </a>
     <div class="infos">
-        <h3><?php echo $photo["titre"]; ?> #<?php echo $photo["categorie"]; ?></h3>
+        <h3><?php echo $photo["titre"]; ?>
+            <a href="categorie.php?id=<?php echo $photo["categorie_id"]; ?>">
+                #<?php echo $photo["categorie"]; ?>
+            </a>
+        </h3>
 
         <!-- Affichage des tags -->
         <?php $liste_tags = getAllTagsByPhoto($photo["id"]); ?>
