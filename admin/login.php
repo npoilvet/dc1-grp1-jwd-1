@@ -14,12 +14,12 @@
 </head>
 
 <body class="text-center">
-<form class="form-signin">
+<form action="index.php" method="POST" class="form-signin">
     <h1 class="h3 mb-3 font-weight-normal">Login</h1>
     <label for="inputEmail" class="sr-only">Adresse e-mail</label>
-    <input type="email" id="inputEmail" class="form-control" placeholder="Adresse e-mail" required autofocus>
+    <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Adresse e-mail" required autofocus>
     <label for="inputPassword" class="sr-only">Mot de passe</label>
-    <input type="password" id="inputPassword" class="form-control" placeholder="mot de passe" required>
+    <input type="password" name="password" id="inputPassword" class="form-control" placeholder="mot de passe" required>
     <div class="checkbox mb-3">
         <label>
             <input type="checkbox" value="remember-me"> Se souvenir de moi
