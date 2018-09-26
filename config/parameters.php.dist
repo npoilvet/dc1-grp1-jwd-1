@@ -2,3 +2,6 @@
 $db_host = "localhost";
 $db_name = "dc1_grp1_jwd";
 $db_user = "root";
+
+$siteurl = "http://localhost/dc2/grp1-jwd/admin/";
+$siteadmin = $siteurl . "admin/";

@@ -1,6 +1,6 @@
 <?php
 
-require_once 'config/parameters.php';
+require_once __DIR__ . '/../config/parameters.php';
 
 $connection = new PDO("mysql:host=" . $db_host . ";dbname=" . $db_name, $db_user, $db_pass, [
     PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8', lc_time_names = 'fr_FR';",

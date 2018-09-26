@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/../../config/parameters.php'; ?>
 <?php require_once __DIR__ . '/../security.php'; ?>
 <!doctype html>
 <html lang="fr">
@@ -8,12 +9,12 @@
     <title>Administration</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $siteadmin; ?>node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="./css/dashboard.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo $siteadmin; ?>css/dashboard.css" rel="stylesheet">
+    <link href="<?php echo $siteadmin; ?>css/style.css" rel="stylesheet">
+    <link href="<?php echo $siteadmin; ?>node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
 
