@@ -1,7 +1,13 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: NATHAN
- * Date: 26/09/2018
- * Time: 11:58
- */
+require_once '../../security.php';
+require_once '../../../model/database.php';
+
+$id = $_POST['id'];
+
+$error = deleteEntity(" categorie", $id);
+if ($error) {
+    header('Location: index.php?errcode=' . $error->getCode());
+    exit;
+}
+
+header('Location: index.php');

@@ -1,7 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: NATHAN
- * Date: 26/09/2018
- * Time: 11:57
- */
+require_once '../../security.php';
+require_once '../../../model/database.php';
+
+$id = $_POST['id'];
+$titre = $_POST['titre'];
+
+updateCategorie($id, $titre);
+
+header('Location: index.php');
