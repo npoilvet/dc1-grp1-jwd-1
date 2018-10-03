@@ -20,7 +20,7 @@ getHeader($photo["titre"], "Description de la photo");
 <main class="container">
 
     <h1><?php echo $photo["titre"]; ?></h1>
-    <img src="images/<?php echo $photo["image"] ?>">
+    <img src="uploads/<?php echo $photo["image"] ?>">
     <?php foreach ($liste_tags as $tag) : ?>
         <a href="tag.php?id=<?php echo $tag["id"]; ?>">
             #<?php echo $tag["titre"] ?>

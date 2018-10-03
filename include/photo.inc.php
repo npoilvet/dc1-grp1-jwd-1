@@ -1,6 +1,6 @@
 <article class="col-4 miniature">
     <a href="photo.php?id=<?php echo $photo["id"]; ?>">
-        <img src="images/<?php echo $photo["image"]; ?>" alt="mini" title="mini">
+        <img src="uploads/<?php echo $photo["image"]; ?>" alt="mini" title="mini">
         <p class="likes"><?php echo $photo["nb_likes"]; ?> likes</p>
     </a>
     <div class="infos">

@@ -4,7 +4,7 @@ require_once 'functions.php';
 require_once 'model/database.php';
 
 // Déclaration des variables
-$liste_photos = getAllPhotos();
+$liste_photos = getAllPhotos(6);
 
 getHeader("Accueil", "Jean Webdesign le super site");
 ?>

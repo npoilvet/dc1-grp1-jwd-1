@@ -2,3 +2,4 @@
 *.bak
 config/parameters.php
 nbproject/
+uploads/
