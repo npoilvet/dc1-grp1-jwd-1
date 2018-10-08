@@ -28,3 +28,4 @@ function insertCommentaire(string $contenu, int $photo_id) {
     $stmt->bindParam(':photo_id', $photo_id);
     $stmt->execute();
 }
+

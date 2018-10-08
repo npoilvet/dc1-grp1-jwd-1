@@ -24,7 +24,7 @@ require_once '../../layout/header.php';
         </div>
         <div class="form-group">
             <label>Image</label>
-            <input type="file" name="image" class="form-control" required>
+            <input type="file" name="image" class="form-control">
             <?php if($photo['image']): ?>
                 <img src="../../../uploads/<?php echo $photo['image']; ?>" class="img-thumbnail">
             <?php endif; ?>
@@ -47,8 +47,8 @@ require_once '../../layout/header.php';
         <div class="form-group">
             <label>Tags</label>
             <select name="tag_ids[]" multiple class="form-control">
-                <?php $selected = (in_array($tag['id'], $photo_liste_tags_ids)) ? "selected" : ""; ?>
                 <?php foreach ($liste_tag as $tag): ?>
+                    <?php $selected = (in_array($tag['id'], $photo_liste_tags_ids)) ? "selected" : ""; ?>
                     <option value="<?php echo $tag['id']; ?>" <?php echo $selected; ?>>
                         <?php echo $tag['titre']; ?>
                     </option>

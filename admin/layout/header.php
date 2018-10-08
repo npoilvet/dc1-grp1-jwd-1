@@ -15,6 +15,8 @@
     <link href="<?php echo $siteadmin; ?>css/dashboard.css" rel="stylesheet">
     <link href="<?php echo $siteadmin; ?>css/style.css" rel="stylesheet">
     <link href="<?php echo $siteadmin; ?>node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo $siteadmin; ?>node_modules/select2/dist/css/select2.min.css" rel="stylesheet">
+    <link href="<?php echo $siteadmin; ?>node_modules/datatables.net-bs4/css/dataTables.bootstrap4.min.css" rel="stylesheet">
 
 </head>
 

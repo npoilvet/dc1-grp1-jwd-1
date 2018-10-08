@@ -21,13 +21,13 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link <?php echo isActive("/crud/tag/") ? 'active' : ''; ?>" href="<?php echo $siteadmin; ?>/crud/tag">
                     <i class="fa fa-tags"></i>
                     Tags
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link <?php echo isActive("/crud/commentaire/") ? 'active' : ''; ?>" href="<?php echo $siteadmin; ?>/crud/commentaire">
                     <i class="fa fa-comments"></i>
                     Commentaires
                 </a>
